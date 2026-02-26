@@ -8,14 +8,16 @@
   },
   "dependencies": {
     "@google/generative-ai": "^0.21.0",
-    "next": "latest",
-    "react": "latest",
-    "react-dom": "latest"
+    "next": "14.2.3",
+    "react": "^18",
+    "react-dom": "^18"
   },
   "devDependencies": {
+    "@cloudflare/next-on-pages": "latest",
     "typescript": "latest",
     "@types/node": "latest",
     "@types/react": "latest",
-    "@types/react-dom": "latest"
+    "@types/react-dom": "latest",
+    "vercel": "latest"
   }
 }
