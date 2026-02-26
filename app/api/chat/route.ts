@@ -10,7 +10,7 @@ export async function POST(req: Request) {
         "Content-Type": "application/json"
       },
       body: JSON.stringify({
-        "model": "google/gemini-2.0-flash-exp:free", // 使用最新的 2.0 免费版
+        "model": "google/gemini-2.0-flash-001",
         "messages": [
           { "role": "user", "content": message }
         ]
