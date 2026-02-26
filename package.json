@@ -1,9 +1,21 @@
 {
+  "name": "gemini-chat",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
   "dependencies": {
     "@google/generative-ai": "^0.21.0",
-    "next": "14.2.3",
-    "react": "^18",
-    "react-dom": "^18"
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
   },
-  "scripts": { "dev": "next dev", "build": "next build", "start": "next start" }
+  "devDependencies": {
+    "typescript": "latest",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest"
+  }
 }
