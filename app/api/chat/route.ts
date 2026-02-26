@@ -1,3 +1,5 @@
+export const runtime = 'edge'; // 加上这一行
+
 export async function POST(req: Request) {
   try {
     const { message } = await req.json();
